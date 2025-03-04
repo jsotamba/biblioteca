@@ -7,15 +7,15 @@ Un progetto Django REST Framework per la gestione di una biblioteca, con funzion
 ## 🛠 Installazione e Avvio del Progetto
 
 # Creare e attivare un ambiente virtuale
-python -m venv venv
-source venv/bin/activate  # Su Mac/Linux
+python -m venv venv <br>
+source venv/bin/activate  # Su Mac/Linux <br>
 venv\Scripts\activate  # Su Windows
 
 # Installare le dipendenze
 pip install -r requirements.txt
 
 # Configurare il database
-python manage.py migrate
+python manage.py migrate <br>
 Se si desidera utilizzare un database diverso da SQLite, modificare DATABASES in settings.py e poi applicare nuovamente le migrazioni
 
 # Importare i dati dal file db.json
